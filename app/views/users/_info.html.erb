@@ -1,0 +1,15 @@
+<h1>User info</h1>
+<table>
+  <tbody>
+    <tr>
+      <th>name</th>
+      <th><%= user.name %></th>
+    </tr>
+    <tr>
+      <th>introduction</th>
+      <th><%= user.introduction %></th>
+    </tr>
+  </tbody>
+</table>
+
+  <%= link_to "Gear", edit_user_path(user.id) %>
